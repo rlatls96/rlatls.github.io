@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{    
+    background: #EBEBEB;
+}
+footer{
+    background-color: black;
+}
+#sns{
+    font-size: 4vw;
+    background-size: 1000%;
+    text-align: right;
+
+}
+
+.myDiv1 { 
+    margin: auto;
+    font-size: 25px;
+    text-align: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#introduce{
+    font-size: 30px;
+    height: 40vw;;
+    text-align: center;
+  
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#about{
+    margin: auto;
+    margin-left: 10vw;
+    font-family: 'EB Garamond', serif;
+    background-size: 400% 400%;
+    width: 1024px;
+    height: 400px;
+    text-align: auto;
+    font-size: 22px;
+}
+
+.box1{
+    margin: auto;
+    background-color: white;
+    height: 30vw;
+    display: flex;
+}
+
+.box2{
+    margin: auto;
+    height: 30vw;
+
+}
+
+.box3{
+    margin: auto;
+    height: 40vw;
+    background: #FAF5EA;
+}
+
+table
+{
+margin:auto;
+border-collapse: separate;
+border-spacing: 0 1.3vw;
+overflow-x: auto;
+}
+
+#tablet{
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 3.5vw;
+}
+
+#more{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    text-align: auto;
+    font-family:'EB Garamond', serif;
+    background-size: 400% 400%;
+    height: 40vw;
+    font-size: 1.3vw;
+}   
+
+.button1 {border-radius: 40px;}
+.button2 {border-radius: 40px;}
+
+section {
+    display: block;
+  }
+
+
+.primary-text-color { 
+	color: #212121; 
+}
+
+.secondary-text-color { 
+	color: #757575; 
+}
+
+.divider-color { 
+	color: #BDBDBD; 
+}
+
+.icon-color { 
+	color: #000000; 
+}
+
+#b3{
+    height: 25vw;
+}
+
+th{
+    background-color: #757575; 
+    color: whitesmoke;
+    font-size: 1.2vw;
+    height: 10vw;
+    width: 20vw;
+}
+td{
+    vertical-align: top;
+    width: 1024px;
+}
+tr{
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+#TableHeading{
+    font-size: 2vw;
+}
+
+#field
+{
+    font-size: 1.3vw;
+}
+td #field{
+    font-size: 2vw;
+}
+#school
+{
+color: grey;
+text-transform: uppercase;
+}
+
+#con{
+    font-size: 2vw;
+    font-family: 'EB Garamond', serif;
+
+}
+#contextme{
+    height: 45vw;
+}
+
+fieldset{
+    margin: auto;
+    font-family: 'EB Garamond', serif;
+    color: black;
+    font-size: 20px;
+    width: 1024px;
+    background-color: #FCF7EB;
+    margin-bottom: 10vw;
+}
+
+textarea{
+    resize: none;
+    vertical-align: top;
+    text-align: left;
+    overflow-x: auto;
+    width: 50vw;
+    margin-left: 1vw;
+    height: max-content;
+}
+
+label {
+    display: inline-block;
+    width: 4vw;
+    margin-left: 1vw;
+  }
+
+input{
+    font-size: 1.3vw;
+}
+
+
+#hr{
+    display: none;
+}
+
+#radiobuttons
+{
+    font-size: 1.3vw;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+
+
+.reflect{
+    margin-top: 5vw;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+.git{
+    margin-top: 5vw;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        background: #EBEBEB; 
+    }
+	
+    img{
+        width: 100%;
+        height: 100%;
+    }
+	
+    #introduce{
+        font-size: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .myDiv1 { 
+        width: 100%;
+        font-size: 100%;
+        text-align: auto;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .box1{
+
+        width:100%;
+        height: 100%;
+        font-size: 100%;
+        display: flex;
+    }
+
+    .box2{
+
+        height: auto;
+        width: auto;
+    }
+    
+    .box3{
+ 
+        height: auto;
+        width: auto;
+        background: #FAF5EA;
+    }
+
+    #about{
+    
+        font-family: 'EB Garamond', serif;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+    }
+    .button {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: auto;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100%;    
+      }
+
+      .button1 {border-radius: auto;}
+      .button2 {border-radius: auto;}
+
+      table
+      {
+      border-collapse: separate;
+      border-spacing: 100%;
+      overflow-x: 100%;
+      }
+      
+      #tablet{
+          margin-top: auto;
+          margin-bottom: auto;
+          font-family: 'EB Garamond', serif;
+          color: black;
+          font-size: 100%;
+      }
+
+    #b3{
+ 
+        height: 100%;
+    }
+    
+    th{
+        background-color: #757575; 
+        color: whitesmoke;
+        font-size: 100%;
+        height: 100%;
+        width: 100%;
+    }
+    td{
+        vertical-align: top;
+        width: 100%;
+    }
+    tr{
+        background-color: white;
+    }
+    #TableHeading{
+        font-size: 100%;
+    }
+    
+    #field
+    {
+        font-size: 100%;
+    }
+    td #field{
+        font-size: 100%;
+    }
+    #school
+    {
+    color: grey;
+    text-transform: uppercase;
+    }
+    
+    #con{
+        font-size: 100%;
+        font-family: 'EB Garamond', serif;
+    
+    }
+    #contextme{
+        width: 100%;
+        height: 100%;
+        margin-bottom: auto;
+    }
+    
+    
+    fieldset{
+       
+        font-family: 'EB Garamond', serif;
+        color: black;
+        font-size: 100%;
+        width: 100%;
+        background-color: #FCF7EB;;
+    }
+    
+    textarea{
+        resize: none;
+        vertical-align: top;
+        text-align: auto;
+        overflow-x: auto;
+        width: 100%;
+        margin-left: auto;
+        height: 100%;
+    }
+    
+    label {
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+      }
+    
+    input{
+        font-size: 100%;
+    }
+    
+    #hr{
+        display: none;
+    }
+    
+    #radiobuttons
+    {
+    font-size: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    }
+    
+    #more{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family:'EB Garamond', serif;
+        background: #FAF5EA;
+        background-size: auto;
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+    }
+    
+    .reflect{
+        height:auto;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 100%;
+        text-align: auto;
+    
+    }
+    
+    .git{
+        height:auto;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 100%;
+        text-align: auto;
+    
+    }
+    
+}
+
+
